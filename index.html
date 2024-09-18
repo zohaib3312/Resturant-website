@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section with Navbar and Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4763a6d94.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="slide active" style="background-image: url('Assests/bg_1.jpg.webp')" data-title="Feliciano"
+            data-description="BEST RESTURANT "></div>
+        <div class="slide" style="background-image: url('Assests/bg_2.jpg.webp')" data-title="Feliciano"
+            data-description="NUTRITIOUS & TASTY"></div>
+        <div class="slide" style="background-image: url('Assests/bg_3.jpg.webp')" data-title="Feliciano"
+            data-description="DELICIOUS SPELLIOUS "></div>
+    </div>
+
+    <div class="info">
+        <div class="phone">
+            <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> + 1235 2355 98</p>
+        </div>
+
+        <div class="email">
+            <p><span> <i class="fa fa-paper-plane" aria-hidden="true"></i></span>youremail@email.com</p>
+        </div>
+        <div class="timing">
+            <p>Open hours:Monday - Sunday 8:00AM - 9:00PM</p>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Feliciano</a>
+            </div>
+            <ul id="menu">
+                <li><a id="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="btn">
+                    <a href="#">Book a table</a>
+                </div>
+            </ul>
+
+            <!-- Hamburger menu for small screens -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- New navbar that appears on scroll -->
+        <nav class="scrolled-navbar" id="scrolled-navbar">
+            <div class="logo">
+                <a href="#">Feliciano</a>
+            </div>
+            <ul>
+                <li><a id="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="btn">
+                    <a href="#">Book a table</a>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1 id="hero-title">Feliciano</h1>
+            <p id="hero-description"></p>
+            <div class="sub-hero">
+                <div class="img-des">
+                    <img src="Assests/breakfast-1.jpg.webp" alt="">
+                    <h3>Grilled Beef with potatoes</h3>
+                    <div class="t-des"><span>Meat</span>,<span>Potatoes</span>,<span>Rice</span>,<span>Tomato</span>
+                    </div>
+                </div>
+                <div class="img-des">
+                    <img src="Assests/breakfast-2.jpg.webp" alt="">
+                    <h3>Grilled Beef with potatoes</h3>
+                    <div class="t-des"><span>Meat</span>,<span>Potatoes</span>,<span>Rice</span>,<span>Tomato</span>
+                    </div>
+                </div>
+                <div class="img-des">
+                    <img src="Assests/breakfast-3.jpg.webp" alt="">
+                    <h3>Grilled Beef with potatoes</h3>
+                    <div class="t-des"><span>Meat</span>,<span>Potatoes</span>,<span>Rice</span>,<span>Tomato</span>
+                    </div>
+                </div>
+                <div class="img-des">
+                    <img src="Assests/breakfast-4.jpg.webp" alt="">
+                    <h3>Grilled Beef with potatoes</h3>
+                    <div class="t-des"><span>Meat</span>,<span>Potatoes</span>,<span>Rice</span>,<span>Tomato</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <!-- Row 1: Two Columns -->
+                <div class="row">
+                    <!-- Left Column: Images -->
+                    <div class="col-left">
+                        <div class="image-wrapper">
+                            <div class="img-right">
+                                
+                            </div>
+                            <div class="img-left">
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+    
+                    <!-- Right Column: About Us Information -->
+                    <div class="col-right">
+                        <span>About</span>
+                        <h2>Feliciano <br> Restaurant</h2>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <p>Mon - Fri <strong>8AM-11PM</strong></p>
+                        <h1>+ 1-978-123-4567</h1>
+                    </div>
+                </div>
+    
+                
+                    <div class="row info-row">
+                        <div class="col">
+                            <h3 class="counter" data-target="18">0</h3>
+                            <p>YEAR OF EXPERIENCE</p>
+                        </div>
+                        <div class="col">
+                            <h3 class="counter" data-target="100">0</h3>
+                            <p>MENUS/DISH</p>
+                        </div>
+                        <div class="col">
+                            <h3 class="counter" data-target="50">0</h3>
+                            <p>STAFFS</p>
+                        </div>
+                        <div class="col">
+                            <h3 class="counter" data-target="15000">0</h3>
+                            <p>HAPPY CUSTOMERS</p>
+                        </div>
+                        <div class="col">
+                            <p id="specific">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+     
+    
+
+
+<!-- services section -->
+
+
+<div class="service-title">
+    <span>Services</span>
+    <h2>Catering Services</h2>
+</div>
+
+
+<section class="services-section">
+
+
+    <div class="service-box">
+        <i class="icon">🌐</i>
+        <h3>Web Development</h3>
+        <p>We provide modern web development services to help you build a professional online presence.</p>
+    </div>
+    <div class="service-box">
+        <i class="icon">📱</i>
+        <h3>App Development</h3>
+        <p>Our app development services offer seamless mobile solutions to engage your audience.</p>
+    </div>
+    <div class="service-box">
+        <i class="icon">🎨</i>
+        <h3>UI/UX Design</h3>
+        <p>We design user-friendly interfaces to enhance user experience and interaction.</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
