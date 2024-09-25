@@ -88,3 +88,8 @@ counters.forEach(counter => {
 
 
 
+// Wait for the window to fully load
+window.addEventListener('load', function() {
+  // Add the "loaded" class to the body
+  document.body.classList.add('loaded');
+});
